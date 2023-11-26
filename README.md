@@ -2,7 +2,7 @@
 
 <img src="./assets/img_00.png" width="65%" align="right">
 
-| **wm**      | [bspwm](https://github.com/baskerville/bspwm)                                           |
+| **wm**      | [bspwm](https://github.com/kagerou-hikari/dotfiles)                                           |
 | :---------- | :-------------------------------------------------------------------------------------- |
 | **term**    | [alacritty](https://github.com/alacritty/alacritty)                                     |
 | **fileman** | [ranger](https://ranger.github.io/)/[dolphin](https://wiki.archlinux.org/title/dolphin) |
