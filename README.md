@@ -2,16 +2,16 @@
 
 <img src="./assets/img_00.png" width="65%" align="right">
 
-| **wm**      | [bspwm](https://github.com/baskerville/bspwm)                                     |
-| :---------- | :-------------------------------------------------------------------------------- |
-| **term**    | [alacritty](https://github.com/alacritty/alacritty)                               |
-| **fileman** | [ranger](https://ranger.github.io/)/[nemo](https://wiki.archlinux.org/title/Nemo) |
-| **editor**  | [nvchad](https://nvchad.com)                                                      |
-| **pdf**     | [zathura](https://pwmt.org/projects/zathura/)                                     |
-| **video**   | [mpv](https://mpv.io)                                                             |
-| **music**   | [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp)                                     |
-| **fetch**   | [lmaofetch](https://github.com/p3nguin-kun/lmaofetch)                             |
-| **sysmon**  | [htop](https://htop.dev/)                                                         |
+| **wm**      | [bspwm](https://github.com/baskerville/bspwm)                                           |
+| :---------- | :-------------------------------------------------------------------------------------- |
+| **term**    | [alacritty](https://github.com/alacritty/alacritty)                                     |
+| **fileman** | [ranger](https://ranger.github.io/)/[dolphin](https://wiki.archlinux.org/title/dolphin) |
+| **editor**  | [nvchad](https://nvchad.com)                                                            |
+| **pdf**     | [zathura](https://pwmt.org/projects/zathura/)                                           |
+| **video**   | [vlc](https://www.videolan.org/)                                                        |
+| **music**   | [spotify](https://spotify.com/)                                                         |
+| **fetch**   | [neofetch](https://github.com/dylanaraps/neofetch)                                      |
+| **sysmon**  | [htop](https://htop.dev/)                                                               |
 
 # **installation**
 
@@ -26,7 +26,7 @@ sudo pacman -S git
 2. clone this repository
 
 ```
-git clone git@github.com:kagerou-hikari/dotfiles.git
+git clone https://github.com/kagerou-hikari/dotfiles.git
 ```
 
 3. go to dotfiles directory
