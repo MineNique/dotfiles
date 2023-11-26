@@ -52,7 +52,7 @@ consequences=$4
 			;;
 		Spotify|elisa|vlc)
 			eval "$consequences"
-			[ "$state" ] || echo "state=pseudo_tiled desktop=^6"
+			[ "$state" ] || echo "desktop=^6 follow=on"
 			;;
 	esac
 

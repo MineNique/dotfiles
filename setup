@@ -13,7 +13,7 @@ backup_folder=~/.RiceBackup
 date=$(date +%Y%m%d-%H%M%S)
 
 # Dependencies
-dependencies=(alacritty bspwm dragon-drop dunst maim feh git gtk-engine-murrine gvfs gvfs-afc gvfs-mtp gvfs-smb htop firefox lxappearance vlc neovim networkmanager pamixer pavucontrol qogir-icon-theme ranger rofi scrot sed sxhkd udisks2 ttf-roboto-mono ttf-maple ttf-jetbrains-mono-nerd ttf-ubuntu-font-family ttf-ubuntu-nerd ttf-roboto-mono-nerd unzip xclip xdg-user-dirs-gtk xorg-xinit zathura zathura-pdf-mupdf zip picom-simpleanims-next-git zsh zsh-autosuggestions zsh-history-substring-search zsh-syntax-highlighting dolphin qt5ct kvantum kde-cli-tools)
+dependencies=(alacritty bspwm dragon-drop dunst maim feh git gtk-engine-murrine gvfs gvfs-afc gvfs-mtp gvfs-smb htop firefox lxappearance vlc neovim networkmanager pamixer pavucontrol ranger rofi scrot sed sxhkd udisks2 ttf-roboto-mono ttf-maple ttf-jetbrains-mono-nerd ttf-ubuntu-font-family ttf-ubuntu-nerd ttf-roboto-mono-nerd unzip xclip xdg-user-dirs-gtk xorg-xinit zathura zathura-pdf-mupdf zip picom-simpleanims-next-git zsh zsh-autosuggestions zsh-history-substring-search zsh-syntax-highlighting dolphin qt5ct kvantum kde-cli-tools)
 
 # Function to display the logo
 logo() {
