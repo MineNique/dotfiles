@@ -1,0 +1,55 @@
+# Colors
+colors:
+  # Default colors
+  primary:
+    background: '#0d0c10'
+    foreground: '#dae3e6'
+
+  # Normal colors
+  normal:
+    black: '#0d0c10'
+    red: '#697885'
+    green: '#78718E'
+    yellow: '#58B8A3'
+    blue: '#54DAB6'
+    magenta: '#888CA6'
+    cyan: '#A2D8D3'
+    white: '#dae3e6'
+
+  # Bright colors
+  bright:
+    black: '#989ea1'
+    red: '#697885'
+    green: '#78718E'
+    yellow: '#58B8A3'
+    blue: '#54DAB6'
+    magenta: '#888CA6'
+    cyan: '#A2D8D3'
+    white: '#dae3e6'
+
+tab_bar:
+  style: # Style of the tab bar (default, plain, button)
+  background: '#dae3e6'
+  foreground: '#0d0c10'
+
+  active:
+    background: '#dae3e6'
+    foreground: '#0d0c10'
+
+  inactive:
+    background: '#0d0c10'
+    foreground: '#dae3e6'
+
+# Borders
+window:
+  borders:
+    active: '#dae3e6'
+    inactive: '#0d0c10'
+
+  bell: '#697885'
+
+# Cursor
+cursor:
+  text: '#dae3e6'
+
+

@@ -1,0 +1,19 @@
+#  Font configuration
+font:
+  normal:
+    family: Maple Mono
+    #style: Regular
+
+  bold:
+    family: Maple Mono
+    #style: Bold
+  
+  italic:
+    family: Maple Mono
+    #style: Italic
+
+  bold_italic:
+    family: Maple Mono
+    #style: Bold Italic
+
+  size: 10
