@@ -26,7 +26,7 @@ sudo pacman -S git
 2. clone this repository
 
 ```
-git clone git@github.com:kagerou-hikari/plane-dotfiles.git
+git clone git@github.com:kagerou-hikari/dotfiles.git
 ```
 
 3. go to dotfiles directory
