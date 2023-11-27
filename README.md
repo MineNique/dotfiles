@@ -52,4 +52,4 @@ chmod +x install && ./install
 ```
 startx
 ```
-Edit .zshrc and remove auto login
+> edit .zshrc and remove auto login
