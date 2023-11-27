@@ -15,7 +15,7 @@
 
 # **installation**
 
-**note: you need to login as normal user to use this script**
+**note: you need to login as a normal user to use this script**
 
 1. install [Git](https://git-scm.com/) if you don't have it
 
@@ -29,7 +29,7 @@ sudo pacman -S git
 git clone https://github.com/kagerou-hikari/dotfiles.git
 ```
 
-3. go to dotfiles directory
+3. go to the dotfiles directory
 
 ```
 cd dotfiles
@@ -45,10 +45,11 @@ chmod +x install && ./install
 
 6. restart your computer
 
-7. done! Now you can use fully-featured floating/tiling window manager on your computer
+7. done! Now you can use a fully-featured floating/tiling window manager on your computer
 
-**note**: if you dont have display manager (or login manager), you can login with xinit
+**note**: if you do not have a display manager (or login manager), you can login with xinit
 
 ```
 startx
 ```
+Edit .zshrc and remove auto login
