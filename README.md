@@ -52,4 +52,4 @@ chmod +x install && ./install
 ```
 startx
 ```
-> edit .zshrc and remove auto login
+**note**: If you have a display manager (or login manager), you can edit .zshrc and remove auto login
