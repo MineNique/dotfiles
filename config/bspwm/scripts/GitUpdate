@@ -1,28 +1,22 @@
 #!/usr/bin/env zsh
 
-homeLink() {
-    files=( ".fehbg" ".zshrc" ".xinitrc" ".Xresources" ".ssh" ".gitconfig" ".gtkrc-2.0" ".gnupg" )
+dependencies=(alacritty bspwm dragon-drop dunst maim feh git gtk-engine-murrine gvfs gvfs-afc gvfs-mtp gvfs-smb htop firefox lxappearance vlc neovim networkmanager pamixer pavucontrol ranger rofi scrot sed sxhkd udisks2 ttf-roboto-mono ttf-maple ttf-jetbrains-mono-nerd ttf-ubuntu-font-family ttf-ubuntu-nerd ttf-roboto-mono-nerd unzip xclip xdg-user-dirs-gtk xorg-xinit zathura zathura-pdf-mupdf zip picom-simpleanims-next-git zsh zsh-autosuggestions zsh-history-substring-search zsh-syntax-highlighting dolphin qt5ct kvantum kde-cli-tools)
+configs=( "bspwm" "alacritty" "ranger" "dunst" "neofetch" "htop" "zathura" )
+files=( ".zshrc" ".xinitrc" ".Xresources" ".ssh" ".gitconfig" ".gnupg" )
 
+homeLink() {
     for file in "${files[@]}"; do
         ln -s "$HOME/.dotfiles/home/$file" "$HOME/"
     done
 }
 
 configLink() {
-    configs=( "sxhkd" "rofi" "gtk-3.0" "gtk-4.0" "dunst" "bspwm" "alacritty" "Kvantum" "qt5ct" "ranger" "neofetch" "htop" "picom" "zathura" "dolphinrc" )
-
     for config in "${configs[@]}"; do
         ln -s "$HOME/.dotfiles/config/$config" "$HOME/.config/"
     done
 }
 
-codeLink() {
-    ln -s "$HOME/.dotfiles/config/code/User" "$HOME/.config/Code/"
-}
-
 dependenciesCheck(){
-    dependencies=(alacritty bspwm dragon-drop dunst feh git gtk-engine-murrine gvfs gvfs-afc gvfs-mtp gvfs-smb htop firefox lxappearance vlc neovim networkmanager pamixer pavucontrol qogir-icon-theme ranger rofi scrot sed sxhkd udisks2 ttf-roboto-mono ttf-maple ttf-jetbrains-mono-nerd ttf-ubuntu-font-family ttf-ubuntu-nerd ttf-roboto-mono-nerd unzip xclip xdg-user-dirs-gtk xorg-xinit zathura zathura-pdf-mupdf zip picom-simpleanims-next-git tela-icon-theme zsh zsh-autosuggestions zsh-history-substring-search zsh-syntax-highlighting dolphin qt5ct kvantum kde-cli-tools)
-
     for pkg in "${dependencies[@]}"; do
         if ! paru -Qi "$pkg" &>/dev/null; then
             paru -S --noconfirm "$pkg"
