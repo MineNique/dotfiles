@@ -53,3 +53,9 @@ chmod +x install && ./install
 startx
 ```
 **note**: If you have a display manager (or login manager), you can edit .zshrc and remove auto login
+
+```bash
+if [[ $WM != "bspwm" ]]; then
+ clear && startx
+fi
+```
