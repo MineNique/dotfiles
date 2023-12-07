@@ -39,13 +39,13 @@ bindkey '^[[B' history-substring-search-down
 # ALIAS
 alias mirrors="sudo reflector --verbose --latest 5 --country 'India' --age 6 --sort rate --save /etc/pacman.d/mirrorlist"
 
-alias clean="paru -Sc --noconfirm && sudo pacman -Scc --noconfirm"
+alias clean="paru -Sc --noconfirm && sudo pacman -Scc --noconfirm && yay -Sc --noconfirm"
 alias purga="sudo pacman -Rns $(pacman -Qtdq) ; sudo fstrim -av"
 alias update="Updates --update-system"
 alias autoremove="sudo pacman -R $(pacman -Qdtq)"
 alias checkupdates="Updates --get-updates"
 alias list="Updates --print-updates"
-alias config="code ~/.dotfiles/"
+alias dot="code ~/.dotfiles/"
 
 alias scan_wifi="nmcli dev wifi rescan && nmcli dev wifi"
 

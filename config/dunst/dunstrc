@@ -22,7 +22,7 @@ font = JetBrainsMono Nerd Font Medium 9
 
 line_height = 2
 markup = full
-format = "<span size='large' font_desc='Cantarell 9' weight='bold' foreground='#51DAB0'>%s</span>\n%b"
+format = "<span size='large' font_desc='JetBrainsMono Nerd Font Medium 9' weight='bold' foreground='#51DAB0'>%s</span>\n%b"
 alignment = left
 
 idle_threshold = 120

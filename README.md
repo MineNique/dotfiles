@@ -2,7 +2,7 @@
 
 <img src="./assets/img_00.png" width="65%" align="right">
 
-| **wm**      | [bspwm](https://github.com/kagerou-hikari/dotfiles)                                           |
+| **wm**      | [bspwm](https://github.com/kagerou-hikari/dotfiles)                                     |
 | :---------- | :-------------------------------------------------------------------------------------- |
 | **term**    | [alacritty](https://github.com/alacritty/alacritty)                                     |
 | **fileman** | [ranger](https://ranger.github.io/)/[dolphin](https://wiki.archlinux.org/title/dolphin) |
@@ -49,9 +49,10 @@ chmod +x install && ./install
 
 **note**: if you do not have a display manager (or login manager), you can login with xinit
 
-```
+```bash
 startx
 ```
+
 **note**: If you have a display manager (or login manager), you can edit .zshrc and remove auto login
 
 ```bash
