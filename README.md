@@ -26,7 +26,7 @@ sudo pacman -S git
 2. clone this repository
 
 ```
-git clone https://github.com/kagerou-hikari/dotfiles.git
+git clone https://github.com/MineNique/dotfiles.git
 ```
 
 3. go to the dotfiles directory
