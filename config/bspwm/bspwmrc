@@ -37,8 +37,8 @@ bspc config pointer_action2				resize_side
 bspc config pointer_action3				resize_corner
 
 
-# Terminate already running polybar, sxhkd and dunst instances
-processes=("polybar" "sxhkd" "dunst" "conky" "picom")
+# Terminate already running instances
+processes=("sxhkd" "dunst" "conky" "picom")
 for process in "${processes[@]}"; do
 	if pgrep -f "$process"; then
 		pkill -9 -f "$process" > /dev/null; sleep 0.1
