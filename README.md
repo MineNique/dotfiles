@@ -38,7 +38,7 @@ cd dotfiles
 4. run this script
 
 ```
-chmod +x install && ./install
+chmod +x install.sh && ./install.sh
 ```
 
 5. follow the instruction
