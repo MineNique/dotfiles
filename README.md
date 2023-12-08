@@ -61,7 +61,7 @@ if [[ $WM != "bspwm" ]]; then
 fi
 ```
 
-**note**: Remove Display file in config/bspwm/scripts/ folder and remove 51 and 52 number line of code in bspwmrc file
+**note**: Remove Display file in 'config/bspwm/scripts/' folder and remove 51 and 52 number line of code in bspwmrc file
 
 ```bash
 
