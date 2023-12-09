@@ -189,6 +189,8 @@ install(){
 
   sudo cp -r $HOME/.dotfiles/themes/* /usr/share/themes/
   sudo cp -r $HOME/.dotfiles/icons/* /usr/share/icons/
+
+  
 }
 
 install_pkg_list(){
